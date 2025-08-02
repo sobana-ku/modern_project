@@ -1,7 +1,6 @@
 'use client';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Contact from '../../schemas/contactSchemas';
 
 export default function EmployeePage() {
   const [name, setName] = useState('');
